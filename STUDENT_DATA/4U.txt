@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+ float h=5.0;
+ float k=5.0;
+ float r=5.0;
+ cout<<"\n\n";
+    for(float y=10.0;y>=0;y-=0.5){
+        for(float x=0.0;x<=10.0;x+=0.5){
+                  if( (x-h)*(x-h) + (y-k)*(y-k) == r*r){
+                     cout<<"    HI! JASLEEN";
+                    }else{
+                        cout<<"  ";
+                    }
+            }
+         cout<<"\n";
+        }
+     cout<<"\n\n";
+ return 0;
+}
