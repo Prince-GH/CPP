@@ -62,11 +62,8 @@ void Delete(Tree*ROOT,int value){
      if(Current==value){
         
      }
-
-
     if(value>Current->data){
         //move right
-        
     }else if(value<Current->data){
         //move left
     }else{
