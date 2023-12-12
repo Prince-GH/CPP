@@ -1,5 +1,1 @@
- // if(first->next=NULL){
-    //     cout<<"->TOP";
-    // }else{
-    //     cout<<"->";
-    // }
+v.resize(1);

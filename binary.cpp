@@ -25,11 +25,13 @@ int main(){
         }
         mid=(beg+end)/2;
     }
+
     if(a[mid]==value){
         cout<<"Positon of value is: "<<mid+1;
     }
     else{
         cout<<"The element not found.";
     }
+    
 return 0;
 }

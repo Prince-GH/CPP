@@ -34,7 +34,7 @@ tree*createTree(int n){
    for(int i=1;i<=n;i++){
 
    tree*node=new tree();
-   cout<<"\nEnter data"<<i<<": ";
+   cout<<"\nEnter data "<<i<<": ";
    cin>>node->data;
    node->left=NULL;
    node->right=NULL;
@@ -51,15 +51,33 @@ tree*createTree(int n){
 
 void inorder(tree*root){
     if(root!=NULL){
-        
         inorder(root->left);
-        cout<<root->data<<endl;
+        cout<<" | "<<root->data;
         inorder(root->right);
     }
+}
+void preorder(tree*root){
+   if(root!=NULL){
+      cout<<" | "<<root->data;
+      preorder(root->left);
+      preorder(root->right);
+   }
+}
+void postorder(tree*root){
+   if(root!=NULL){
+      postorder(root->left);
+      postorder(root->right);
+      cout<<" | "<<root->data;
+   }
 }
 
 int main(){
    tree*ROOT=createTree(5);
+   cout<<"\nInorder: ";
    inorder(ROOT);
+   cout<<"\nPreorder: ";
+   preorder(ROOT);
+   cout<<"\nPostorder: ";
+   postorder(ROOT);
    return 0;
 }
