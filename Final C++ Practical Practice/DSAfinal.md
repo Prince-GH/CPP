@@ -1,0 +1,43 @@
+### DSA
+- Array
+  - Operation
+     - Insertion
+     - Deletion
+     - Serching
+        - Binary search
+        - Linear search
+     - Sorting
+        - Bubble sort
+        - Selection sort
+        - Insertion sort
+        - Merge sort
+        - Quick sort
+- Linked List
+  - Insertion
+  - Deletion
+  - Searching
+  - Type
+     - Singly linkedl list
+     - Doubly linked list
+     - Circular linked list
+     - Header linked list
+- Stack
+  - Operation
+  - pre fix
+  - post fix
+  - in fix
+- Queue
+  - Operation
+    - Enqueue
+    - Dequeue
+  - Types of queue
+  - simple queue
+  - priority queue
+  - Circular queue
+  - Double ended queue
+
+//===================================================  
+- Tree
+  - 
+- Graph
+  - 
